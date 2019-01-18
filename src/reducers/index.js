@@ -4,5 +4,5 @@ import selectionReducer from "./selectionReducer";
 
 export default combineReducers({
   libraries: libraryReducer,
-  selectedLibraryId: selectionReducer
+  selectLibraryId: selectionReducer
 });
